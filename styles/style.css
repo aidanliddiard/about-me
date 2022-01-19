@@ -1,10 +1,10 @@
 body {
     /* feel free to update these css variables for a quick theme */
 
-    --color1: white;
-    --color2: white;
+    --color1: rgb(32, 4, 63);
+    /* --color2: rgb(221, 62, 62); */
     --color3: white;
-    --color4: white;
+    --color4: rgb(99, 11, 102);
     --color5: white;
 
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
@@ -24,7 +24,7 @@ body {
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.45);
     --gutter: 30px;
-    --footer-height: 30px;
+    --footer-height: 20px;
 
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
@@ -45,19 +45,31 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: var(--gutter);
-    padding-bottom: var(--gutter);
-    margin-top: var(--gutter);
-    margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
 }
 
-header {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    height: var(--header-height);
-    box-shadow: var(--shadow);
+#pronouns {
+    font-style: italic;
+}
+
+#bold {
+    font-weight: bolder;
+}
+
+#larger {
+    font-size: 30px;
+}
+
+#title {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#border {
+    border: double;
+    border-color: var(--color4);
+    margin: 15px;
+    border-radius: 25px;
+    border-width: thick;
 }
 
 h2 {
@@ -67,10 +79,6 @@ h2 {
 
 .gutter-right {
     margin-right: 20px;
-}
-
-header img {
-    height: var(--header-height);
 }
 
 p {
