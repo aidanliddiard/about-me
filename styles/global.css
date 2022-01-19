@@ -1,13 +1,8 @@
 
 :root {
-    --primary-background: #FFFFF4;
-    --chrome-background: #e3b574;
-    --chrome-background-opaque: #e3b574d1;
-    --secondary-background: #C9B39B;
-    --text-color: #32363F;
-    --accent-light: #ED8F11;
-    --accent-dark: #C27A18;
-    
+    --primary-background: #e1d8e4;
+    --chrome-background: #ad74e3;
+    --chrome-background-opaque: #ad74e3d1;
     --gutter: 30px;
 }
 
@@ -20,10 +15,7 @@ body {
     /* layout */
     display: grid;
     grid-template-rows: 80px 1fr auto;
-
 }
-
-
 
 header {
     display: flex;
