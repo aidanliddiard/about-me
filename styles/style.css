@@ -60,6 +60,10 @@ header {
     box-shadow: var(--shadow);
 }
 
+#pronouns {
+    font-style: italic;
+}
+
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
