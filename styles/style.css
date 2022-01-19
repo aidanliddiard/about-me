@@ -64,6 +64,10 @@ header {
     font-style: italic;
 }
 
+#bold {
+    font-weight: bolder;
+}
+
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
